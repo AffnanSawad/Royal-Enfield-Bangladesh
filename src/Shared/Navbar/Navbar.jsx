@@ -16,7 +16,7 @@ const navoptions = <>
 
               <li><Link to='/locate'> Locate Us </Link></li>
 
-              <li><Link to='/spp'> Support </Link></li>
+              <li><Link to='/support'> Support </Link></li>
 
 
 
