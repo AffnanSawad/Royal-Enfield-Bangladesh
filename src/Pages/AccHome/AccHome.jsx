@@ -18,7 +18,8 @@ const AccHome = () => {
 
 
     return (
-        <div className="bg-black">
+ <Fade>
+         <div className="bg-black">
         
         
         <Fade>  
@@ -56,6 +57,7 @@ const AccHome = () => {
   
 
 </div>
+ </Fade>
 
 
         
