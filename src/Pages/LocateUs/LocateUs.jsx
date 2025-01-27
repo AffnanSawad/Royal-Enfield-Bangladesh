@@ -64,7 +64,7 @@ const LocateUs = () => {
        style={styles}
        className="absolute inset-0 bg-black bg-opacity-70 text-white flex flex-col justify-center items-center"
      >
-       <h3 className="text-lg font-bold text-red-400 italic">Royal Enfield Chittagong</h3>
+       <h3 className="text-lg font-bold text-red-400 italic">Royal Enfield Dhaka</h3>
        <div className="flex gap-1">
        <HiLocationMarker /> 
        <p className="text-sm italic"> Dhanmondi 2/A , Dhaka </p>
