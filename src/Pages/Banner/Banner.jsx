@@ -20,7 +20,7 @@ const Banner = () => {
         
        
         <div>
-            <img src="https://i.ibb.co.com/pZzP2cS/red-rooster-royal-enfield-banner-desktop.webp" alt="" />
+            <img src="https://i.ibb.co.com/9y2Ftj1/sleethblack-banner-des.jpg"  alt="" />
         </div>
         
     </Carousel>

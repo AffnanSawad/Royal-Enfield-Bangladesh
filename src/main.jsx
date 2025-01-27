@@ -10,12 +10,16 @@ import {
 } from "react-router-dom";
 import { router } from './Routes/Routes';
 
+import AuthProvider from './FireBaseAuthentication/AuthProvider/AuthProvider';
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div className='bg-black'>
-    <RouterProvider router={router} />
+   <AuthProvider>
+   <RouterProvider router={router} />
+   </AuthProvider>
     </div>
   </StrictMode>,
 )

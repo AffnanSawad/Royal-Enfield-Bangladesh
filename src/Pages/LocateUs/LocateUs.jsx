@@ -32,7 +32,7 @@ const LocateUs = () => {
      onMouseLeave={() => api.start({ opacity: 0 })}
    >
      <img
-       src="https://i.ibb.co.com/DVfTfxY/high-angle-shot-bandra-worli-sealink-mumbai-enveloped-with-fog-1.jpg"
+       src="https://i.ibb.co.com/T01Lx5m/olga-subach-Zuxxq0i-Hk-N4-unsplash.jpg"
        alt="Card"
        className="w-full h-full object-cover "
      />

@@ -1,6 +1,43 @@
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../FireBaseAuthentication/AuthProvider/AuthProvider";
+import Swal from "sweetalert2";
+import { auth } from "../../FireBaseAuthentication/FireBase/FireBase.config";
 
 const Navbar = () => {
+
+
+  // importing context for authentication so that i can use logout;
+
+  const {user , logout} = useContext(AuthContext);
+
+
+  // navigate
+  const navigate = useNavigate();
+
+
+  const handleLogOut = ()=> {
+
+    logout(auth)
+    .then(() => {
+
+        console.log("log out successfully");
+
+        // navigate
+        navigate('/');
+        
+        // swal
+        Swal.fire({
+          title: "  Logged Out!",
+          text: "You Are Successfully Logged Out!",
+          icon: "success"
+        });
+    })
+
+    .catch(error=>{
+        console.log(error.message)
+    })
+  }
 
 
 
@@ -60,7 +97,27 @@ const navoptions = <>
           </ul>
         </div>
         <div className="navbar-end">
-        <button className="btn btn-outline  border-red-600 text-white bg-red-600">Log In</button>
+       
+       {/* Login Button Linked */}
+
+      
+
+
+       {
+
+user ? <div className="text-white mr-4"> 
+  
+  {user.email}
+   <button onClick={()=>handleLogOut()} className='btn bg-red-600 text-white border border-red-600'>LOGOUT</button>
+    </div> : 
+
+<Link to="login"> 
+<button className="btn btn-outline  border-red-600 text-white bg-red-600">Log In</button>
+</Link>
+}
+
+
+
         </div>
       </div>
     );

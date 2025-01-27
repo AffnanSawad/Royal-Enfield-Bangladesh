@@ -7,6 +7,8 @@ import Home from "../Pages/Home/Home";
 import Acc from "../Pages/Acc/Acc";
 import LocateUs from "../Pages/LocateUs/LocateUs";
 import Support from "../Pages/Support/Support";
+import LoginPage from "../FireBaseAuthentication/LoginPage/LoginPage";
+import SignInPage from "../FireBaseAuthentication/SignInPage/SignInPage";
 
   
  export const router = createBrowserRouter([
@@ -31,6 +33,14 @@ import Support from "../Pages/Support/Support";
             path: '/support',
             element:<Support></Support>
         },
+        {
+          path:'/login',
+          element: <LoginPage></LoginPage>
+        },
+        {
+          path:'/signin',
+          element: <SignInPage></SignInPage>
+        }
 
 
 
