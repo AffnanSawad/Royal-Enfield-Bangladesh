@@ -1,4 +1,5 @@
 import { useSpring, animated } from "@react-spring/web";
+import { Fade } from "react-awesome-reveal";
 import { HiLocationMarker } from "react-icons/hi";
 const LocateUs = () => {
 
@@ -12,9 +13,12 @@ const LocateUs = () => {
  
 <div >
  
- <h1 className="text-3xl italic font-bold text-white text-center underline mt-20">Locate Us In Bangladesh</h1>
+<Fade duration={2000}>
+<h1 className="text-3xl italic font-bold text-white text-center underline mt-20">Locate Us In Bangladesh !</h1>
+</Fade>
 
 
+<Fade duration={5000}>
 <div className="location_container   lg:flex gap-5 py-10 ">
         
 
@@ -84,6 +88,7 @@ const LocateUs = () => {
 
 
        </div>
+</Fade>
 
 
 </div>
