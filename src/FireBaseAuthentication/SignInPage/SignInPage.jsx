@@ -52,7 +52,7 @@ const handle_Sign_in = e => {
 
         setuser(result.user);
 
-      
+      // form reset
         e.target.reset();
 
         // navigate kore home e niye jabe

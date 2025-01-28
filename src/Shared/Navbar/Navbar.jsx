@@ -108,7 +108,7 @@ const navoptions = <>
 user ? <div className="text-white mr-4"> 
   
   {user.email}
-   <button onClick={()=>handleLogOut()} className='btn bg-red-600 text-white border border-red-600'>LOGOUT</button>
+   <button onClick={()=>handleLogOut()} className='btn bg-red-600 text-white border border-red-600'>Log Out</button>
     </div> : 
 
 <Link to="login"> 
