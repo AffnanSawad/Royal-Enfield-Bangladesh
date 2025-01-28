@@ -8,5 +8,5 @@
 
 4. <Home.jsx> => Home ja ja hbe , sesb component create kore bosano ekane.jate home er sb ek page e dekai.
 
-5. Firebase Authentication .
+5. Firebase Authentication => LogIn/SignIn .
 
