@@ -10,6 +10,7 @@ import Support from "../Pages/Support/Support";
 import LoginPage from "../FireBaseAuthentication/LoginPage/LoginPage";
 import SignInPage from "../FireBaseAuthentication/SignInPage/SignInPage";
 import Bikes from "../Pages/Bikes/Bikes";
+import BikeDetails from "../Pages/BikeDetails/BikeDetails";
 
 
   
@@ -47,6 +48,13 @@ import Bikes from "../Pages/Bikes/Bikes";
           path:'/bikes',
           element: <Bikes></Bikes>,
           
+        },
+        {
+          path: '/details/:id',
+
+          loader: ()=> fetch('./data.json'),
+
+          element: <BikeDetails></BikeDetails>
         }
        
 

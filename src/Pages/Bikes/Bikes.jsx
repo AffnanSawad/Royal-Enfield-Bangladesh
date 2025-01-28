@@ -44,7 +44,7 @@ const Bikes = () => {
         {/* mapping */}
         <Fade duration = {6000} >
 
-    <div className=" grid gap-20 ml-10 pb-10 md:grid-cols-2  lg:grid-cols-3 ">
+    <div className=" grid gap-20 pt-10 ml-10 pb-10 md:grid-cols-2  lg:grid-cols-3 ">
 
 
         {

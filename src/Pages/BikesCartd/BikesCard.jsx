@@ -1,4 +1,5 @@
 import { Card ,   CardContent, CardMedia,  } from "@mui/material";
+import { Link } from "react-router-dom";
 
 
 import ReactiveButton from "reactive-button";
@@ -41,7 +42,11 @@ const BikesCard = ({bike}) => {
    
     
     
-    <ReactiveButton 
+  <Link to={`/details/${id}`}>
+  
+  
+  
+  <ReactiveButton 
         
         className="mt-5 " color="red"
         
@@ -52,6 +57,10 @@ const BikesCard = ({bike}) => {
        
         
         />
+  
+  
+  
+  </Link>
     
     
   
