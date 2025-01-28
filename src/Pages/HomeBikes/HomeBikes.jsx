@@ -14,7 +14,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const HomeBikes = () => {
     return (
-        <div>
+        <div className='h-[500px]'>
 
 <Fade>
 
@@ -22,14 +22,16 @@ const HomeBikes = () => {
 
 </Fade>
 
-<Fade duration={7500}>
+<Fade duration={5000}>
  
         <Swiper  
         
-        height={700}
+        height={650}
           direction={'vertical'}
           slidesPerView={1}
           spaceBetween={30}
+          autoplay={true}
+          onAutoplayStart={true}
           mousewheel={true}
           pagination={{
             clickable: true,
@@ -39,10 +41,10 @@ const HomeBikes = () => {
         >
 
            
-            <SwiperSlide><img src="https://i.ibb.co.com/xHwr9r0/cool-motorcycle-outdoors.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="https://i.ibb.co.com/3YCybFp/safely-motorcycle-helmet.jpg" alt="" /></SwiperSlide>
           <SwiperSlide className=' bg-black'><img src="https://i.ibb.co.com/ZYchKJv/motorcycle-safety-helmet.jpg" /></SwiperSlide>
-          <SwiperSlide><img src="https://i.ibb.co.com/MhPxCVh/cool-motorcycle-indoors.jpg"  /></SwiperSlide>
-          <SwiperSlide><img src="https://i.ibb.co.com/cYTjZ8h/view-cool-motorcycle.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="https://i.ibb.co.com/J5D75MX/man-cafe-racer-style-motorbike.jpg"  /></SwiperSlide>
+          <SwiperSlide><img src="https://i.ibb.co.com/DY1LFQv/motorcycle-safety-helmet-1.jpg" alt="" /></SwiperSlide>
           
           
         </Swiper>

@@ -12,7 +12,7 @@ const BikeDetails = () => {
     
     const idInt = parseInt(id);
 
-    const bikedetailsinfo2 = bikedetailsinfo.find(bikedetailsinfo2=> bikedetailsinfo2.id == idInt) 
+    const bikedetailsinfo2 =bikedetailsinfo.find(bikedetailsinfo2=> bikedetailsinfo2.id == idInt) 
 
 
 
