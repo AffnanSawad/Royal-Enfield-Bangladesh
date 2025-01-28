@@ -9,6 +9,8 @@ import LocateUs from "../Pages/LocateUs/LocateUs";
 import Support from "../Pages/Support/Support";
 import LoginPage from "../FireBaseAuthentication/LoginPage/LoginPage";
 import SignInPage from "../FireBaseAuthentication/SignInPage/SignInPage";
+import Bikes from "../Pages/Bikes/Bikes";
+
 
   
  export const router = createBrowserRouter([
@@ -40,7 +42,13 @@ import SignInPage from "../FireBaseAuthentication/SignInPage/SignInPage";
         {
           path:'/signin',
           element: <SignInPage></SignInPage>
+        },
+        {
+          path:'/bikes',
+          element: <Bikes></Bikes>,
+          
         }
+       
 
 
 

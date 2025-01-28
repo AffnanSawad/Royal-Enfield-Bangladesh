@@ -54,6 +54,8 @@ const navoptions = <>
               <li><Link to='/locate'> Locate Us </Link></li>
 
               <li><Link to='/support'> Support </Link></li>
+              
+              <li><Link to='/bikes'> Bikes </Link></li>
 
 
 
