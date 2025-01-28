@@ -6,7 +6,10 @@
 
 3. <Main.jsx> => Outlet , nav , footer will be added. cause they will be showed in every page.
 
-4. <Home.jsx> => Home ja ja hbe , sesb component create kore bosano ekane.jate home er sb ek page e dekai.
+4. <Home.jsx> => All Home Components file are here so that every component appear in the home section.
 
 5. Firebase Authentication => LogIn/SignIn .
 
+6. Data Load (Bikes Data ) hase done  by Using useEffect , Fetching Method .
+
+7. Loaded Data's Detais ( Bike Detais After Clicking Details Button ) Has been done by using loader , useLoader , useParams .
