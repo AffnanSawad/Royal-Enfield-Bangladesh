@@ -18,7 +18,7 @@ const HomeBikes = () => {
 
 <Fade>
 
-<h1 className='text-red-600 bg-black text-center underline  text-4xl font-bold italic mb-5'>New Arrivals</h1>
+<h1 className='text-red-600 bg-black text-center underline  text-4xl font-bold italic mb-5'>Some Glimpses !</h1>
 
 </Fade>
 
