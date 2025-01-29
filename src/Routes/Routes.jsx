@@ -11,6 +11,7 @@ import LoginPage from "../FireBaseAuthentication/LoginPage/LoginPage";
 import SignInPage from "../FireBaseAuthentication/SignInPage/SignInPage";
 import Bikes from "../Pages/Bikes/Bikes";
 import BikeDetails from "../Pages/BikeDetails/BikeDetails";
+import PrivateRoute from "../FireBaseAuthentication/PrivateRoute/PrivateRoute";
 
 
   
@@ -54,7 +55,7 @@ import BikeDetails from "../Pages/BikeDetails/BikeDetails";
 
           loader: ()=> fetch('./data.json'),
 
-          element: <BikeDetails></BikeDetails>
+          element: <PrivateRoute><BikeDetails></BikeDetails></PrivateRoute>
         }
        
 

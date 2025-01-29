@@ -7,13 +7,13 @@ const Bikes = () => {
 
    const [bikeCollection , setBikeCollection] = useState([]);
 
-    //    fetching data 
+    //    fetching data  : Server site | Database theke
  
      useEffect(   
     
     ()=>{
      
-        fetch('data.json')
+        fetch('http://localhost:5000/bikesData')
 
         .then(res => res.json())
 

@@ -12,15 +12,23 @@ const AuthProvider = ({children}) => {
 
 //  user state
 const [user , setuser] = useState(null);
+
+// Loader
+const [loading,setLoading] = useState(true);
    
     // Sign In
     const create_new_user = (email,password) =>{
+          
+        setLoading(true);
 
         return createUserWithEmailAndPassword(auth,email,password);
     }
 
     // login
     const login_user = (email,password)=>{
+           
+        setLoading(true);
+
 
         return  signInWithEmailAndPassword(auth,email,password);
     }  
@@ -33,6 +41,11 @@ const [user , setuser] = useState(null);
     // logout
     
     const logout = () => {
+
+         
+        setLoading(true);
+
+
         return signOut(auth)
       }
 
@@ -53,7 +66,8 @@ const [user , setuser] = useState(null);
     else{
         setuser(null)
     }
-
+     
+    setLoading(false);
 
    });
 
@@ -74,7 +88,8 @@ const [user , setuser] = useState(null);
         login_user,
         logout,
         user,
-        setuser
+        setuser,
+        loading
         
 
 
