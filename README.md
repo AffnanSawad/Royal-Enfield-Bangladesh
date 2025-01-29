@@ -13,3 +13,5 @@
 6. Data Load (Bikes Data ) hase done  by Using useEffect , Fetching Method .
 
 7. Loaded Data's Detais ( Bike Detais After Clicking Details Button ) Has been done by using loader , useLoader , useParams .
+
+8. MongoDb Server SetUP . Linked With the Bikes Data . Now Data's r on the server & database. database [localhost:5000/bikes] link is used  in fetch( 'localhost:5000/bikes ) instead of old fake data method. 
