@@ -25,7 +25,7 @@ const LocateHome = () => {
              
    
              <div className="locateushome-heading">
-              <h1 className="text-red-600 italic m-5 text-2xl font-bold bg-black underline"> Locate Us Near By You </h1>
+              <h1 className="text-red-600 italic m-5 pt-5 text-3xl font-bold bg-black underline"> Locate Us Near By You </h1>
               </div>
             
           

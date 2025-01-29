@@ -25,7 +25,7 @@ const AccHome = () => {
         <Fade>  
         <li to='/acc'>
 
-          <h1 className="text-red-600 italic m-5 text-2xl font-bold bg-black underline"> Accessories </h1>
+          <h1 className="text-red-600 text-4xl italic m-5  font-bold bg-black underline"> Accessories </h1>
         </li>
         </Fade>
   

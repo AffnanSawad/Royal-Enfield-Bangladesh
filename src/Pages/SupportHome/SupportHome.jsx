@@ -18,7 +18,7 @@ const SupportHome = () => {
                      
            
                      <div className="locateushome-heading">
-                      <h1 className="text-red-600 italic m-5 text-2xl font-bold bg-black underline"> Need Support ? </h1>
+                      <h1 className="text-red-600 italic m-5 pt-5 text-3xl font-bold bg-black underline"> Need Support ? </h1>
                       </div>
                     
                   
