@@ -23,8 +23,11 @@ const PrivateRoute = ({children}) => {
 
         return children;
     }
-
-    return <Navigate   to="/login" ></Navigate>
+   
+    else{
+            return <Navigate   to="/login" ></Navigate>
+        }
+    
 
 
     

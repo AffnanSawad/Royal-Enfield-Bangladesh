@@ -3,6 +3,11 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../FireBaseAuthentication/AuthProvider/AuthProvider";
 import Swal from "sweetalert2";
 import { auth } from "../../FireBaseAuthentication/FireBase/FireBase.config";
+import { BsCartCheckFill } from "react-icons/bs";
+import useCart from "../../Pages/Hooks/useCart";
+
+
+
 
 const Navbar = () => {
 
@@ -10,6 +15,8 @@ const Navbar = () => {
   // importing context for authentication so that i can use logout;
 
   const {user , logout} = useContext(AuthContext);
+
+  const [cart] = useCart();
 
 
   // navigate
@@ -56,6 +63,26 @@ const navoptions = <>
               <li><Link to='/support'> Support </Link></li>
               
               <li><Link to='/bikes'> Bikes </Link></li>
+             
+             
+             {
+              user &&
+
+              <li> 
+                
+              <Link to='/mycart'> 
+            
+            
+            <button className="btn">
+            <BsCartCheckFill />   <div className="badge badge-sm badge-secondary">+{cart.length} </div>
+             </button>
+            
+            
+             </Link></li>
+            
+
+
+             }
 
 
 

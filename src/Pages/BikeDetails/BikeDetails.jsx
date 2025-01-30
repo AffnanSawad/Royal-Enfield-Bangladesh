@@ -1,8 +1,14 @@
+import { useContext } from "react";
 import { Fade } from "react-awesome-reveal";
 import { useLoaderData, useParams } from "react-router-dom";
+import Swal from "sweetalert2";
+import { AuthContext } from "../../FireBaseAuthentication/AuthProvider/AuthProvider";
 
 
 const BikeDetails = () => {
+
+
+    
      
     // Card Details
    
@@ -17,6 +23,9 @@ const BikeDetails = () => {
 
 
     console.log(bikedetailsinfo2);
+
+
+   
 
    
 
@@ -52,7 +61,7 @@ const BikeDetails = () => {
 
 </div>
 
-<button className="btn btn-dash btn-error mt-5">Book Now</button>
+
 
 </div>
 

@@ -14,6 +14,8 @@ import BikeDetails from "../Pages/BikeDetails/BikeDetails";
 import PrivateRoute from "../FireBaseAuthentication/PrivateRoute/PrivateRoute";
 
 
+
+
   
  export const router = createBrowserRouter([
     {
@@ -62,6 +64,32 @@ import PrivateRoute from "../FireBaseAuthentication/PrivateRoute/PrivateRoute";
 
 
 
-      ]
-    },
-  ]);
+      ] } ,
+
+    
+    
+    ]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
