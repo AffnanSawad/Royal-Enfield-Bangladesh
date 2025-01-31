@@ -1,8 +1,7 @@
-import { useContext } from "react";
+
 import { Fade } from "react-awesome-reveal";
 import { useLoaderData, useParams } from "react-router-dom";
-import Swal from "sweetalert2";
-import { AuthContext } from "../../FireBaseAuthentication/AuthProvider/AuthProvider";
+
 
 
 const BikeDetails = () => {
