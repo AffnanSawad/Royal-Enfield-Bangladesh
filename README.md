@@ -17,4 +17,10 @@ Live Link : https://royal-enfield-a59da.web.app/
 8. MongoDb Server SetUP . Linked With the Bikes Data . Now Data's r on the server & database. database [localhost:5000/bikes] link is used  in fetch( 'localhost:5000/bikes ) instead of old fake data method.
 
 9. Private Route SetUp.
+
+10. Add to my cart button added on carts . By using tanstack query we show how to save my cart item  and show into dashboard  & also refetch to load data autometically and counted price and items number automatically.  [ usecart.jsx ,
+
+11. Created Dash board and loaded all data of my booked item . [ dashboard.jsx , MyCart.jsx  ]
+
+12.   Added the feature of delete my cart item .  [ MyCart.jsx ]
    
