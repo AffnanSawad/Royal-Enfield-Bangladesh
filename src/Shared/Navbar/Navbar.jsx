@@ -96,60 +96,63 @@ const navoptions = <>
 
 
     return (
-        <div className="navbar font-sans bg-black shadow-sm">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 text-white shadow">
-             {navoptions}
-            </ul>
+      <div className="navbar font-sans bg-black shadow-sm w-full px-4 lg:px-8">
+      {/* Navbar Start */}
+      <div className="navbar-start">
+        {/* Mobile Menu */}
+        <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
           </div>
-          <a className="btn btn-ghost text-3xl italic font-bold text-red-600">Royal Enfield </a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-white">
-          {navoptions}
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content drop-shadow-2xl rounded-box z-50 mt-3 w-52 p-2 text-white shadow bg-gray-900"
+          >
+            {navoptions}
           </ul>
         </div>
-        <div className="navbar-end">
-       
-       {/* Login Button Linked */}
 
-      
-
-
-       {
-
-user ? <div className="text-white mr-4"> 
-  
-  {user.email}
-   <button onClick={()=>handleLogOut()} className='btn bg-red-600 text-white border border-red-600'>Log Out</button>
-    </div> : 
-
-<Link to="login"> 
-<button className="btn btn-outline  border-red-600 text-white bg-red-600">Log In</button>
-</Link>
-}
-
-
-
-        </div>
+        {/* Logo */}
+        <a className="btn btn-ghost text-2xl lg:text-3xl italic font-bold text-red-600">
+          Royal Enfield
+        </a>
       </div>
+
+      {/* Navbar Center (Hidden on Mobile) */}
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 text-white">{navoptions}</ul>
+      </div>
+
+      {/* Navbar End (User Section) */}
+      <div className="navbar-end ml-auto lg:ml-2">
+        {/* Authentication Section */}
+        {user ? (
+          <div className="flex items-center text-white">
+            <p className="hidden sm:block mr-4">{user.email}</p>
+            <button
+              onClick={handleLogOut}
+              className="btn bg-red-600 text-white border border-red-600 hover:bg-red-700"
+            >
+              Log Out
+            </button>
+          </div>
+        ) : (
+          <Link to="/login">
+            <button className="btn btn-outline border-red-600 text-white bg-red-600 hover:bg-red-700">
+              Log In
+            </button>
+          </Link>
+        )}
+      </div>
+    </div>
     );
 };
 

@@ -12,60 +12,47 @@ const Dashboard = () => {
     return (
          
 
-        <div className="flex">
-        
-        
-        
-            {/* dashboard side bar */}
-            <div className="w-64 min-h-screen bg-red-600">
-               
-                <ul className="menu p-4 font-bold ">
-                  
-                         {/* shared */}
-                    <div className="divider"></div>
-                    <li>
-                        <NavLink to="/">
-                            
-                            Home</NavLink>
-                    </li>
-
-                
-                    <li>
-                       
-                           
-                            Booking( {cart.length} ) 
-                    </li>
-
-
-
-
-                    <li>
-                        <NavLink to="/bikes">
-                           
-                            Bike</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/support">
-                            
-                            Contact</NavLink>
-                    </li>
-                </ul>
-            </div>
-           
-           
-            {/* dashboard content */}
-                     
-            <div className="flex-1 p-8 bg-white">
-              
-              
-              
-                <Outlet></Outlet>
-
-            {/* <h1 className=" text-2xl font-bold italic"> Here Is Your Booked Bikes ! </h1> */}
-
-
-            </div>
+        <div className="flex flex-col lg:flex-row">
+      
+        {/* Sidebar */}
+        <div className="lg:w-64 w-full min-h-screen bg-red-400 p-4 h-1/2 lg:h-full">
+  
+          {/* Sidebar Menu */}
+          <ul className="menu font-bold text-white space-y-4">
+            <div className="divider"></div>
+  
+            <li>
+              <NavLink to="/" className="text-lg">
+                Home
+              </NavLink>
+            </li>
+  
+            <li>
+              <NavLink to="/dashboard/mycart" className="text-lg">
+                Booking ({cart.length})
+              </NavLink>
+            </li>
+  
+            <li>
+              <NavLink to="/bikes" className="text-lg">
+                Bike
+              </NavLink>
+            </li>
+  
+            <li>
+              <NavLink to="/support" className="text-lg">
+                Contact
+              </NavLink>
+            </li>
+          </ul>
         </div>
+  
+        {/* Main Content */}
+        <div className="flex-1 bg-white p-8">
+          {/* Outlet renders dynamic content here */}
+          <Outlet />
+        </div>
+      </div>
 
 
 

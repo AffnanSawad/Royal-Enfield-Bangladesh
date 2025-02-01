@@ -30,60 +30,42 @@ const BikeDetails = () => {
 
 
     return (
-        <div>
-           
-           <Fade duration={2000}>
-
-           <h1 className="text-red-500  text-3xl italic font-bold mx-20 pt-10"> * {bikedetailsinfo2.name} *   </h1>
-
-           </Fade>
-        
-        
-        <Fade duration={6000}>
-          
-        <div className="flex gap-5 justify-center mx-18 mt-10 mb-20">
-
-<img src={bikedetailsinfo2.photo} className="h-[400px]" />
-
-<div className="lg:-mt-2">
-  
-<h1 className="text-white lg:mt-20"> {bikedetailsinfo2.details}  </h1>
-
-<div className="flex justify-start">
-
-<h1 className="text-white font-bold italic mt-10 "> <span className="text-red-500">Total CC : </span> {bikedetailsinfo2.cc}  </h1>
-
-
-<h1 className="text-white font-bold italic mt-10 lg:ml-20"> <span className="text-red-500">Price : </span> {bikedetailsinfo2.price}  </h1>
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
- </div>
-
-
-
-
+        <div className="container mx-auto px-4">
+        {/* Title */}
+        <Fade duration={2000}>
+          <h1 className="text-red-500 text-3xl italic font-bold text-center pt-10">
+            * {bikedetailsinfo2.name} *
+          </h1>
         </Fade>
-        
-        
-        
-        
-        
-        
-        
-        </div>
+  
+        {/* Bike Details */}
+        <Fade duration={6000}>
+          <div className="flex flex-col lg:flex-row gap-5 justify-center items-center mt-10 mb-20">
+            {/* Bike Image */}
+            <img
+              src={bikedetailsinfo2.photo}
+              alt="Bike"
+              className="w-full max-w-[400px] rounded-lg shadow-lg"
+            />
+  
+            {/* Bike Description */}
+            <div className="text-center lg:text-left lg:-mt-2 max-w-xl">
+              <h1 className="text-white lg:mt-10">{bikedetailsinfo2.details}</h1>
+  
+              {/* CC & Price */}
+              <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-6">
+                <h1 className="text-white font-bold italic">
+                  <span className="text-red-500">Total CC: </span> {bikedetailsinfo2.cc}
+                </h1>
+  
+                <h1 className="text-white font-bold italic">
+                  <span className="text-red-500">Price: </span> {bikedetailsinfo2.price}
+                </h1>
+              </div>
+            </div>
+          </div>
+        </Fade>
+      </div>
     );
 };
 
