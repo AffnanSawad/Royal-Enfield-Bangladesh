@@ -22,5 +22,5 @@ Live Link : https://royal-enfield-a59da.web.app/
 
 11. Created Dash board and loaded all data of my booked item . [ dashboard.jsx , MyCart.jsx  ]
 
-12.   Added the feature of delete my cart item .  [ MyCart.jsx ]
+12.   Added the feature of delete the cart items which i booked  .  [ MyCart.jsx ]
    
