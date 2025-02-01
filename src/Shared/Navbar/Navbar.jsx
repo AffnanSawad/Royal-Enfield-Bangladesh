@@ -71,7 +71,7 @@ const navoptions = <>
 
               <li> 
                 
-              <Link to='/mycart'> 
+              <Link to='/dashboard/mycart'> 
             
             
             <button className="btn">

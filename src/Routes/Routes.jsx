@@ -12,6 +12,8 @@ import SignInPage from "../FireBaseAuthentication/SignInPage/SignInPage";
 import Bikes from "../Pages/Bikes/Bikes";
 import BikeDetails from "../Pages/BikeDetails/BikeDetails";
 import PrivateRoute from "../FireBaseAuthentication/PrivateRoute/PrivateRoute";
+import Dashboard from "../Layout/Dashboard";
+import MyCart from "../Pages/Dashboard/Cart/MyCart";
 
 
 
@@ -67,6 +69,25 @@ import PrivateRoute from "../FireBaseAuthentication/PrivateRoute/PrivateRoute";
       ] } ,
 
     
+    //  dashboard - My Cart
+  {
+    path: 'dashboard',
+    element: <Dashboard></Dashboard>,
+
+    children: [
+      
+      {
+        path : 'mycart',
+        element: <MyCart></MyCart>
+      }
+
+
+
+
+    ]
+  }
+
+
     
     ]);
 

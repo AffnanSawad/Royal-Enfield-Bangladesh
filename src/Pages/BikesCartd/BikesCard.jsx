@@ -44,7 +44,8 @@ const BikesCard = ({bike}) => {
     email : user.email ,
     name,
     photo,
-    price
+    price,
+    cc
     } 
 
     // axios er maddhme cart e pathabo .[ post , backend e post kora lgbe]

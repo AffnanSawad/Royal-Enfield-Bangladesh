@@ -5,7 +5,7 @@
       "name": "Royal Enfield Classic 350",
       "cc": "349cc",
       "details": "The Royal Enfield Classic 350 is a blend of retro charm and modern engineering. With its timeless design, the bike is reminiscent of post-war motorcycles. Powered by a 349cc air-cooled engine, it offers a smooth and refined ride, ideal for city commutes and long-distance journeys. The Classic 350 features a robust frame, a comfortable seating posture, and a dual-channel ABS for enhanced safety. Its analog-digital instrument cluster provides essential information with a vintage touch. Available in a variety of color options, the Classic 350 caters to both enthusiasts and casual riders who appreciate style and performance.",
-      "price": "$2,500"
+      "price": 2500
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "name": "Royal Enfield Himalayan",
       "cc": "411cc",
       "details": "The Royal Enfield Himalayan is an adventure touring motorcycle designed to conquer diverse terrains. Equipped with a 411cc single-cylinder engine, it delivers adequate power for off-road trails and highway cruising. The Himalayan features a long-travel suspension, spoked wheels, and a high ground clearance, making it perfect for rugged adventures. Its upright riding position and comfortable seat ensure fatigue-free journeys, even on extended rides. The bike comes with a multifunctional instrument cluster, including a compass and trip meter, catering to adventure seekers. Durable and versatile, the Himalayan is a reliable companion for exploring uncharted paths.",
-      "price": "$3,200"
+      "price": 3200
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "name": "Royal Enfield Meteor 350",
       "cc": "349cc",
       "details": "The Royal Enfield Meteor 350 is a cruiser that combines elegance and performance. Its 349cc engine delivers a refined and smooth riding experience, suitable for both city roads and highways. The Meteor 350 features a low seat height, wide handlebars, and forward-set footpegs, ensuring a relaxed riding posture. It includes a Tripper navigation system for turn-by-turn directions, enhancing convenience for riders. The bike’s modern design is complemented by retro elements, making it a head-turner on the road. With its comfortable suspension setup and precise braking, the Meteor 350 is a great choice for long-distance touring.",
-      "price": "$2,800"
+      "price": 2800
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "name": "Royal Enfield Interceptor 650",
       "cc": "648cc",
       "details": "The Royal Enfield Interceptor 650 is a modern classic motorcycle with a powerful 648cc parallel-twin engine. It delivers a smooth and torquey performance, making it suitable for both spirited rides and relaxed cruising. The bike features a retro-inspired design with a teardrop fuel tank, chrome accents, and a comfortable flat seat. Its dual-channel ABS and high-quality suspension provide confidence and stability on the road. The Interceptor 650 is known for its exceptional build quality, refined engine, and versatility. Whether on a highway or city streets, it offers a thrilling and enjoyable riding experience.",
-      "price": "$4,000"
+      "price": 4000
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "name": "Royal Enfield Continental GT 650",
       "cc": "648cc",
       "details": "The Royal Enfield Continental GT 650 is a café racer designed for enthusiasts who love speed and style. Powered by a 648cc parallel-twin engine, it offers a lively and responsive performance. The bike features clip-on handlebars, rear-set footpegs, and a sporty riding position, emphasizing its racing heritage. Its sleek design, sculpted fuel tank, and retro touches make it a standout choice for those seeking a distinctive look. The Continental GT 650 is equipped with premium suspension, dual-channel ABS, and Pirelli tires, ensuring precise handling and safety. It’s a perfect blend of nostalgia and modern performance.",
-      "price": "$4,200"
+      "price": 2000
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "name": "Royal Enfield Bullet 350",
       "cc": "346cc",
       "details": "The Royal Enfield Bullet 350 is an iconic motorcycle that has retained its classic appeal for decades. Powered by a 346cc engine, it delivers a smooth and steady performance, ideal for everyday rides. The Bullet 350 features a timeless design with a hand-painted fuel tank, chrome accents, and a thumping exhaust note. Its comfortable seating and sturdy frame make it suitable for long journeys. The bike’s simplicity and reliability have made it a favorite among riders who appreciate tradition and character. It’s a perfect choice for those who value heritage and understated elegance.",
-      "price": "$2,400"
+      "price": 2400
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "name": "Royal Enfield Scram 411",
       "cc": "411cc",
       "details": "The Royal Enfield Scram 411 is a scrambler-style motorcycle that combines rugged capability with urban practicality. Its 411cc engine provides sufficient power for both off-road trails and city commutes. The Scram 411 features a minimalist design, with a raised handlebar, mid-set footpegs, and a comfortable seat for an upright riding position. Its dual-purpose tires and long-travel suspension ensure a smooth ride over rough terrain. The bike is lightweight and agile, making it easy to maneuver in tight spaces. Whether exploring trails or navigating urban streets, the Scram 411 offers versatility and style.",
-      "price": "$3,000"
+      "price": 3000
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "name": "Royal Enfield Thunderbird 350X",
       "cc": "346cc",
       "details": "The Royal Enfield Thunderbird 350X is a cruiser designed for modern riders who value comfort and style. Its 346cc engine delivers a smooth and reliable performance, ideal for long-distance touring. The Thunderbird 350X features alloy wheels, vibrant color options, and a sleek design, appealing to younger audiences. Its comfortable seating and relaxed riding posture make it perfect for extended journeys. Equipped with a digital-analog instrument cluster and projector headlamp, it combines modern features with classic cruiser aesthetics. The Thunderbird 350X is a great choice for riders who seek adventure with a touch of sophistication.",
-      "price": "$2,700"
+      "price": 2700
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "name": "Royal Enfield Hunter 350",
       "cc": "349cc",
       "details": "The Royal Enfield Hunter 350 is a compact and agile motorcycle designed for urban explorers. Its 349cc engine offers a responsive and efficient performance, perfect for city commutes. The Hunter 350 features a lightweight frame, low seat height, and upright handlebars, ensuring easy handling and maneuverability. Its modern design, vibrant color schemes, and sporty accents make it a standout choice for younger riders. The bike comes equipped with dual-channel ABS, ensuring safety and control on busy streets. Whether weaving through traffic or enjoying a weekend ride, the Hunter 350 delivers style and substance.",
-      "price": "$2,600"
+      "price": 2600
     }
   ]
   
