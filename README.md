@@ -1,9 +1,4 @@
 Live Link : https://royal-enfield-a59da.web.app/
-
-Overview :
-
-Here's a well-organized and polished version of your text:  
-
 ---
 
 **Welcome to Our Fan-Made Royal Enfield Website!**  
