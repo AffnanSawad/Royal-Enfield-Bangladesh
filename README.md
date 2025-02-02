@@ -16,7 +16,7 @@ Enjoy your journey with **Royal Enfield!** 🏍️🔥
 
 
 -------------------
-  PROJECT STEP'S  
+PROJECT STEP'S  : 
 
 <!-- STEPS OF THIS PROJECT -->
 1. SET UP => REACT ROUTER , TAILWIND - DAISY UI new Version ; React icons ,SWEET ALERT2 .
